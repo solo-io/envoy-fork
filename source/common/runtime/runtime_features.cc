@@ -98,6 +98,8 @@ RUNTIME_GUARD(envoy_restart_features_remove_runtime_singleton);
 RUNTIME_GUARD(envoy_restart_features_send_goaway_for_premature_rst_streams);
 RUNTIME_GUARD(envoy_restart_features_udp_read_normalize_addresses);
 RUNTIME_GUARD(envoy_restart_features_use_apple_api_for_dns_lookups);
+RUNTIME_GUARD(envoy_reloadable_features_router_filter_resetall_on_local_reply);
+RUNTIME_GUARD(envoy_reloadable_features_skip_ext_proc_on_local_reply);
 
 // Begin false flags. These should come with a TODO to flip true.
 // Sentinel and test flag.
